@@ -52,8 +52,8 @@ public class InterfaceConstants {
 
 
     //*****************************************************AUTH接口*****************************************//
-    public static final String STRING_GET_USER_BASIC_INFO ="hca/api/auth/getuserbasicinfo";//获取用户基本信息
-    public static final String STRING_GET_SMS_CODE="hca/api/auth/getsmscode";//获取短信验证码
+    public static final String STRING_GET_USER_BASIC_INFO ="hca/api/auth/getUserbasicinfo";//获取用户基本信息
+    public static final String STRING_GET_SMS_CODE="hca/api/auth/getSmscode";//获取短信验证码
     public static final String STRING_ADD_USER="hca/api/auth/adduser";//添加用户
     public static final String STRING_REGISTER_USER="hca/api/auth/registeruser";//用户注册
     public static final String STRING_USER_LOGIN="hca/api/auth/userlogin";//认证登录
@@ -194,14 +194,14 @@ public class InterfaceConstants {
 
 
 
-    //************************************* Constants*************************************//
+    //************************************************Constants*************************************//
 
 
     //------------------key
-    public static final String TEXT_ANDROID="Android";
-    public static final String TEXT_IOS="iOS";
+    public static final String STRING_ANDROID ="Android";
+    public static final String STRING_IOS ="iOS";
 
-    public static final String TEXT_HECADRE_APP="HECadre APP";
+    public static final String STRING_HECADRE_APP ="HECadre APP";
 
     public static final String TEXT_SRC_TYPE="src_type";
 
@@ -211,7 +211,7 @@ public class InterfaceConstants {
 
     public static final String TEXT_MOBILE ="mobile";
 
-    public static final String TEXT_USER_ID="dev_id";
+    public static final String TEXT_USER_ID="user_id";
 
     public static final String TEXT_VER="ver";
 
@@ -237,12 +237,25 @@ public class InterfaceConstants {
 
     public static final String TEXT_PERSON_ID_PIC_URL="person_id_pic_url";
 
+    public static final String TEXT_SMS_CODE_TYPE="sms_code_type";
+
+    public static final String TEXT_SMS_CODE="sms_code";
+
+    public static final String TEXT_USER_ID_GET="user_id_get";
+
+    public static final String TEXT_PERSON_ID_GET="person_id_get";
+
+    public static final String TEXT_NAME_GET="name_get";
+
+    public static final String TEXT_USER_ID_MOD="user_id_mod";
+
+    public static final String TEXT_NEW_MOBILE="new_mobile";
 
 
 
 
 
-    //------------------value
+    //*****************************************value********************************************************************
 
     public static final int NUMBER_ONE=1;
     public static final int NUMBER_TWO=2;
@@ -250,15 +263,31 @@ public class InterfaceConstants {
 
     public static final String STRING_DEV_ID ="36c13a422422cbed";
 
+
     public static final String STRING_PASSWD="123456";
 
-    public static final String STRING_USER_NAME ="admin";
+    public static final String STRING_USER_NAME ="nanshan";
 
-    public static final long LONG_USERID=110223456789L;
+    public static final long LONG_USERID=6000000008L;
 
+    public static final long [] ARRAY_USER_ID={6000000008L,6000000008L,6000000008L};
+
+    public static final String[] ARRAY_PERSON_ID_GET={"610481195007048776"};
+    public static final String [] ARRAY_NAME_GET={"袁成"};
     public static final String STRING_PERSON_ID ="610481195007048776";
 
-    public static final String STRING_MOBILE ="13333333333";
+    public static final String STRING_MOBILE ="18038098022";
+
+
+    public static final String STRING_EMAIL="email@gmail.com";
+
+    public static final String STRING_NEW_MOBILE="13333333333";
+
+    public static final long LONG_VER_CODE=104L;
+
+    public static final String STRING_VER="1.0.4";
+
+
 
 
 

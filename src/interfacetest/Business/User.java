@@ -1,6 +1,6 @@
 package interfacetest.Business;
 
-public class User {
+public class User implements IUser{
     private String src_type;
     private String pf_type;
     private long user_id;
@@ -17,7 +17,7 @@ public class User {
     private String person_id_pic_url;
     private String dev_id;
     private long user_id_mod;
-    private String[] user_id_get;
+    private long [] user_id_get;
     private String[] person_id_get;
     private String[] name_get;
     private String ver;
@@ -26,7 +26,28 @@ public class User {
     private String login_auth_str;
     private long tenement_id;
 
+    public String getNew_mobile() {
+        return new_mobile;
+    }
+
+    public void setNew_mobile(String new_mobile) {
+        this.new_mobile = new_mobile;
+    }
+
+    private String new_mobile;
+
+    private String sms_code;
+
     private long[] user_id_get_list;
+
+    public String getSms_code() {
+        return sms_code;
+    }
+
+    public void setSms_code(String sms_code) {
+        this.sms_code = sms_code;
+    }
+
 
     public long[] getUser_id_get_list() {
         return user_id_get_list;
@@ -166,11 +187,11 @@ public class User {
         this.user_id_mod = user_id_mod;
     }
 
-    public String[] getUser_id_get() {
+    public long [] getUser_id_get() {
         return user_id_get;
     }
 
-    public void setUser_id_get(String[] user_id_get) {
+    public void setUser_id_get(long[] user_id_get) {
         this.user_id_get = user_id_get;
     }
 

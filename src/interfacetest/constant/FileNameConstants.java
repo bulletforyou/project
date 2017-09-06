@@ -6,10 +6,10 @@ public class FileNameConstants {
     public static String CHECKVER = ParentPath+"Update/checkver.json";
 
     //获取用户基本信息
-    public static String GETUSERBASICINFO = ParentPath+"Auth/setuserbasicinfo.json";
+    public static String GETUSERBASICINFO = ParentPath+"Auth/setUserbasicinfo.json";
 
     //获取短信验证码
-    public static String GETSMSCODE = ParentPath+"Auth/getsmscode.json";
+    public static String GETSMSCODE = ParentPath+"Auth/getSmscode.json";
 
     //添加用户
     public static String ADD_USER = ParentPath+"Auth/adduser.json";
